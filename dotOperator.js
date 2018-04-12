@@ -15,14 +15,16 @@
 
 
 // Setup
+// variable testObj
 var testObj = {
+  //   object properties
     "hat": "ballcap",
     "shirt": "jersey",
     "shoes": "cleats"
   };
   
   // Only change code below this line
-  
+  // set the variable equal to object property 
   var hatValue = testObj.hat;      // Change this line
   var shirtValue = testObj.shirt;    // Change this line
   
