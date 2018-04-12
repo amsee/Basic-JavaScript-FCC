@@ -27,6 +27,7 @@ var ourDog = {
   };
   
   // Only change code below this line.
+  delete myDog.tails;
   
   
   
