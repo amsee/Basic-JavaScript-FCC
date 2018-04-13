@@ -27,7 +27,7 @@
 
 
 // Setup
-var myPlants = [
+var myPlants = [ // [0]
     { 
       type: "flowers",
       list: [
@@ -37,10 +37,10 @@ var myPlants = [
       ]
     },
     {
-      type: "trees",
+      type: "trees", //[]
       list: [
         "fir",
-        "pine",
+        "pine", //[1]
         "birch"
       ]
     }  
