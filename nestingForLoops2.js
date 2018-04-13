@@ -16,11 +16,12 @@ function multiplyAll(arr) {
   var product = 1;
 
     //! 1st dimension of array
+    //? (1) first for loop checks for length of arrays -> line 35-37
   for (var i=0; i < arr.length; i++) { // ? arr.length = 3 arrays
   
     //! 2nd dimension - arrays inside the big array
     console.log("i: ", i);
-    
+    //? (2) second (nested) for loop checks for the position of the nested elements in arrays 
     for (var j=0; j < arr[i].length; j++)
       console.log("i: " + i + "       j: " + j);
       product*=arr[i][j];
@@ -30,12 +31,11 @@ function multiplyAll(arr) {
 }
 
 // *Modify values below to test your code
-var arr = [ //! 1st dimension
-  [1,2], //! 2nd dimension
-  [3,4],
+//? (1)
+//? (2)
+var arr = [ //! 1st dimension (outer array)
+  [1,2], //! 2nd dimension (inner array)
+  [3,4], 
   [5,6,7]
 ];
 multiplyAll(arr);
-
-
-
