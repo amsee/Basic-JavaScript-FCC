@@ -24,7 +24,9 @@ function multiplyAll(arr) {
     //? (2) second (nested) for loop checks for the position of the nested elements in arrays 
     for (var j=0; j < arr[i].length; j++)
       console.log("i: " + i + "       j: " + j);
+      //? multiply the product with 
       product*=arr[i][j];
+      product = product * arr[i][j];
   }
 
   return product;
