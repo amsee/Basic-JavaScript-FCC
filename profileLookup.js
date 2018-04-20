@@ -41,6 +41,7 @@ var contacts = [
 
 function lookUpProfile(firstName, prop){
 // Only change code below this line
+// initialize variable
   for (var i=0; i < contacts.length; i++) {
     if (contacts[i].firstName === firstName) {
       if (contacts[i].hasOwnProperty(prop)) {
