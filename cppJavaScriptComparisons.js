@@ -36,3 +36,16 @@ var Car = function() {
     return speed;
   };
 };
+
+# Python
+class Car:
+    speed = 10
+    
+    def accelerate(change):
+        Car.speed += change
+
+    def decelerate():
+        Car.speed -= 5
+
+    def getSpeed():
+        return Car.speed    
