@@ -13,3 +13,44 @@
 // In the editor you can see an example of a Car constructor that implements this pattern.
 
 // Now try it yourself! Modify the Bike constructor to have a private property called gear and two public methods called getGear and setGear to get and set that value.
+
+
+var Car = function() {
+    // this is a private variable
+    var speed = 10;
+  
+    // these are public methods
+    this.accelerate = function(change) {
+      speed += change;
+    };
+  
+    this.decelerate = function() {
+      speed -= 5;
+    };
+  
+    this.getSpeed = function() {
+      return speed;
+    };
+  };
+  
+  var Bike = function() {
+  
+    // Only change code below this line.
+    // private properties
+    var gear = 10;
+    // public methods
+    this.getGear = function() {
+       return gear;
+    };
+    
+    this.setGear = function(change) {
+      gear = change;
+    };
+    
+  
+  };
+  
+  var myCar = new Car(4, 3, 1);
+  
+  var myBike = new Bike(4, 3, 1);
+  
