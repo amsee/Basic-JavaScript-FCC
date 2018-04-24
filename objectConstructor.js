@@ -34,4 +34,3 @@ var Car = function() {
   
   var myCar = new Car();
   myCar.nickname = "Lambo";
-  
