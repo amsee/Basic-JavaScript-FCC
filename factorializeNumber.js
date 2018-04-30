@@ -12,6 +12,7 @@
 function factorialize(num) {
     if (num === 0) {return 1; } // return True
     return num * factorialize(num-1);
+    console.log(num);
   }
   
   factorialize(5);
